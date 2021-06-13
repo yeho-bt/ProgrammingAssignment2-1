@@ -1,13 +1,12 @@
 ##Programming Assignment 2: Writing a pair of functions that cache the inverse of a matrix.
 
-
 ## A function to create a special matrix object to cache its inverse
 makeCacheMatrix <- function( m = matrix() ) {
 
         ## Initialize the inverse property
        i <- NULL
 
-  ## Method to set the matrix
+      ## Method to set the matrix
       set <- function( matrix ) {
       m <<- matrix
       i <<- NULL
